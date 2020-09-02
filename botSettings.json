@@ -1,0 +1,28 @@
+{
+  "token": "542255871:AAHoF0dykxuegdZknCCN7aSNP78glZ6iimU",
+  "helpMessage": "some help",
+  "wrongMessage": "try /help",
+  "steps": {
+    "start": {
+      "video": "video.mp4",
+      "message": "Hello",
+      "nextStep": "1"
+    },
+    "1": {
+      "message": "question 1",
+      "successPhoto": "img.jpg",
+      "successMessage": "question 1 success",
+      "code": "1234",
+      "nextStep": "2"
+    },
+    "2": {
+      "message": "question 2",
+      "successMessage": "question 2 success",
+      "code": "1234",
+      "nextStep": "end"
+    },
+    "end": {
+      "message": "It's end :("
+    }
+  }
+}

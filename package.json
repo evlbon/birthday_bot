@@ -1,0 +1,16 @@
+{
+  "name": "lera_bot",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "author": "Eugene Bondarev(laser4622@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "global": "^4.4.0",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.4",
+    "telegraf": "^3.38.0"
+  },
+  "scripts": {
+    "dev": "nodemon src/main.js"
+  }
+}
